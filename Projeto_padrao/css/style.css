@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+
+.logo{
+    display: flex;
+    font-size: 2.0rem;
+    color: white;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.botaoverde{
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    font-family: 'Poppins', sans-serif;
+    padding-inline: 30px;
+    border-radius: 20px;
+    padding-block: 10px;
+    margin-right: 100px;
+}
+
+.botaoverde h1{
+    font-size: 1rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.heroSection{
+    display: flex;
+    width: 100%;
+    height: 100dvh;
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+}
+.mensagem{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    font-size: 4rem;
+    padding: 50px;
+    align-items: center;
+}
+
+
+.mensagem h3{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.mensagem p{
+    font-size: small;
+}
+
+.mensagem h1{
+    font-size: small;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.imagemsection{
+    width: 40%;
+    height: 500px;
+}
+
+.imagemseta{
+    width: 20px;
+    height: 20px;
+}
+
+.segundaSection{
+    background-color: #c5cace;
+    width: 100%;
+    height: 100dvh;
+    padding: 50px;
+}
+
+.portifolio{
+    background-color: rgb(255, 255, 255);
+    font-size: small;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imagem1{
+    width: 310px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.cards{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.botao1{
+    background-color: #325A6F;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.botao1 h1{
+    font-weight: lighter;
+    color: white;
+}
